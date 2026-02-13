@@ -1,0 +1,32 @@
+let numeroVitorias = Number(prompt("Quantas vitórias a Heroína tem?"));
+let numeroDerrotas = Number(prompt("Quantas derrotas o Heroína tem?"));
+
+let saldoVitorias = numeroVitorias - numeroDerrotas;
+
+function definirNivel(saldoVitorias){
+  if (saldoVitorias <= 10) {
+    return "Ferro";
+  }
+  else if (saldoVitorias <= 20) {
+    return "Bronze";
+  }
+  else if (saldoVitorias <= 50) {
+    return "Prata";
+  }
+  else if (saldoVitorias <= 80) {
+    return "Ouro";
+  }
+  else if (saldoVitorias <= 90){
+    return "Diamante";
+  }
+  else if (saldoVitorias <= 100) {
+    return "Lendário";
+  }
+  else {
+    return "Imortal";
+  }
+}
+
+let nivel = definirNivel(saldoVitorias);
+
+console.log("O Herói tem saldo de " + saldoVitorias + " e está no nível de " + nivel);
