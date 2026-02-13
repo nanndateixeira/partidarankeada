@@ -1,5 +1,5 @@
 let numeroVitorias = Number(prompt("Quantas vitórias a Heroína tem?"));
-let numeroDerrotas = Number(prompt("Quantas derrotas o Heroína tem?"));
+let numeroDerrotas = Number(prompt("Quantas derrotas a Heroína tem?"));
 
 let saldoVitorias = numeroVitorias - numeroDerrotas;
 
@@ -29,4 +29,4 @@ function definirNivel(saldoVitorias){
 
 let nivel = definirNivel(saldoVitorias);
 
-console.log("O Herói tem saldo de " + saldoVitorias + " e está no nível de " + nivel);
+console.log("A Heroína tem saldo de " + saldoVitorias + " e está no nível de " + nivel);
