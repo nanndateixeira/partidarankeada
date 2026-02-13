@@ -1,14 +1,10 @@
-Perfeito 👍 Segue o **README** sem o código desenvolvido, apenas a descrição do projeto.
-
----
-
-# 🦸‍♂️ Classificador de Nível de Herói
+# 🦸‍♂️ Classificador de Nível de Heroína
 
 ## 📌 Descrição
 
-Este projeto em **JavaScript** tem como objetivo calcular o saldo de vitórias de um herói e determinar seu nível com base nesse saldo.
+Este projeto em **JavaScript** tem como objetivo calcular o saldo de vitórias de uma heroína e determinar seu nível com base nesse saldo.
 
-O programa recebe como entrada a quantidade de vitórias e derrotas, calcula a diferença entre elas e classifica o herói conforme regras pré-definidas.
+O programa recebe como entrada a quantidade de vitórias e derrotas, calcula a diferença entre elas e classifica a heroína conforme regras pré-definidas.
 
 ---
 
@@ -37,7 +33,7 @@ Praticar conceitos fundamentais de lógica de programação, incluindo:
 Saldo = Vitórias - Derrotas
 ```
 
-3. O herói é classificado conforme a tabela abaixo:
+3. A heroína é classificada conforme a tabela abaixo:
 
 | Saldo de Vitórias | Nível    |
 | ----------------- | -------- |
@@ -60,7 +56,7 @@ Saldo = Vitórias - Derrotas
 
 ### Saída:
 
-O Herói tem saldo de 80 e está no nível de Ouro
+A Heroína tem saldo de 80 e está no nível de Ouro
 
 ---
 
